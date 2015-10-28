@@ -1,0 +1,26 @@
+﻿生成启动时间为 2015/10/18 11:44:43。
+     1>项目“C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\HelloCpp.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreLinkEvent:
+         if not exist "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\" mkdir "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x-3.8.1\prebuilt\win32\*.*" "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 60 个文件
+       Link:
+         HelloCpp.vcxproj -> C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\HelloCpp.exe
+       CustomBuildStep:
+         if not exist "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\" mkdir "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\"
+         xcopy "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\..\Resources" "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         找不到文件 - Resources
+         复制了 0 个文件
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(202,5): error MSB3073: 命令“if not exist "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\" mkdir "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(202,5): error MSB3073: xcopy "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\..\Resources" "C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\Debug.win32\" /D /E /I /F /Y
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(202,5): error MSB3073:       
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(202,5): error MSB3073: :VCEnd”已退出，代码为 4。
+     1>已完成生成项目“C:\Cocos\templates\cocos2d-x-3.8.1\cpp-template-default\proj.win32\HelloCpp.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.32
